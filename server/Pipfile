@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "3.0.2"
+sqlalchemy-serializer = "1.4.1"
+flask-migrate = "4.0.0"
+flask-restful = "0.3.9"
+pytest = "7.2.0"
+sqlalchemy = "1.4.36"
+flask-bcrypt = "1.0.1"
+faker = "==15.3.2"
+flask-cors = "3.0.10"
+python-dotenv = "*"
+oauth = "*"
+authlib = "*"
+numpy = "*"
+nltk = "*"
+tensorflow = "*"
+
+[dev-packages]
+
+[requires]
+python_full_version = "3.8.13"
